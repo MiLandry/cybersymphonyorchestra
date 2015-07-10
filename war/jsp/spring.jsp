@@ -5,12 +5,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>CyberSymphony Blog</title>
+<meta content="Spring blog">
+
+<link rel="stylesheet" type="text/css" href="/css/homeStyle.css">
 </head>
 <body>
 
 
-	<%@ include file="html/header.html" %>
-	<%@ include file="html/spring.html" %>
+
+	<%@ include file="/html/header.html" %>
+	<%@ include file="/html/content/springContent.html" %>
+	<%@ include file="/html/footer.html" %>
+	
 	
 
 </body>

@@ -14,7 +14,7 @@ public class BlogServlet extends HttpServlet {
 //		resp.getWriter().println("Hello, world");
 		
 //		RequestDispatcher view = request.getRequestDispatcher("html/spring.html");
-		RequestDispatcher view = request.getRequestDispatcher("blogPage.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("/jsp/spring.jsp");
 		view.forward(request, response);
 
 		
